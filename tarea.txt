@@ -1,6 +1,49 @@
-
+ 
  var calendario = [ diasMes = {enero: 31,febrero: 28, marzo: 31, abril: 30,mayo: 31
 },persona = { objeto: "persona", nombre:"jackson", edad:29, carrera:"ing. Computacion" },
 guitarra ={ marca:"palmer", color: "cafe",estado: "nuevo", }, 
-auto ={objeto: "carro",marca:"nissan", modelo:"GLEWR2456", precio: 5000,}, ]
+auto ={objeto: "carro",marca:"nissan", modelo:"GLEWR2456", precio: 5000,}, celular ={marca:"iphone", color: "plomo",estado: "seminuevo"} ]
  
+ 
+ 
+
+for( x=0;x<calendario.length;x++)
+{
+	if(x==0)
+  {
+			for (var j in diasMes){
+    			console.log("El mes " + j + " tiene " + diasMes[j] + " dias.");
+					}
+    }
+    
+
+	if(x==1)
+		{
+			for (var i in persona){
+    	console.log(i + ": " + persona[i]);
+		}
+	}
+  
+  if(x==2)
+		{
+			for (var k in guitarra){
+    	console.log(k + ": " + guitarra[k]);
+		}
+	}
+  
+  
+   if(x==3)
+		{
+			for (var l in auto){
+    	console.log(l + ": " + auto[l]);
+		}
+	}
+  
+  
+   if(x==4)
+		{
+			for (var a in celular){
+    	console.log(a + ": " + celular[a]);
+		}
+	}
+}
