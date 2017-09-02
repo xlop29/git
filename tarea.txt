@@ -1,0 +1,6 @@
+
+ var calendario = [ diasMes = {enero: 31,febrero: 28, marzo: 31, abril: 30,mayo: 31
+},persona = { objeto: "persona", nombre:"jackson", edad:29, carrera:"ing. Computacion" },
+guitarra ={ marca:"palmer", color: "cafe",estado: "nuevo", }, 
+auto ={objeto: "carro",marca:"nissan", modelo:"GLEWR2456", precio: 5000,}, ]
+ 
